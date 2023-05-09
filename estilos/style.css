@@ -1,0 +1,298 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: #F3F5FC;
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+}
+
+header {
+    padding: 20px 0;
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+.logo {
+    width: 120px;
+    height: 48px;
+    position: absolute;
+    left: 36.67%;
+    right: 37.43%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.input-padrao {
+    position: absolute;
+    width: 680px;
+    left: 240px;
+    top: 168px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    border: 0px;
+    background: transparent;
+}
+
+.input-padrao:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+footer {
+    text-align: center;
+    background: url("../imagens/bg.jpg");
+    padding: 40px 0;
+    position: relative;
+    top: 1024px;
+}
+
+.copyright {
+    font-size: 13px;
+    color: #ffffff;
+    margin: 20px 0 0;
+}
+
+.copyright a {
+    color: #ffffff;
+    font-size: bold;
+}
+
+.info {
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 252px;
+    height: 18px;
+    left: 240px;
+    top: 851px;
+}
+
+.aviso {
+    width: 228px;
+    height: 18px;
+    margin-left: 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+}
+
+.info img {
+    width: 16px;
+    height: 16px;
+}
+
+.vetor {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.botoes {
+    display: flex;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+}
+
+.bt-criptografar {
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+    font-family: 'Inter';
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.bt-criptografar:hover {
+    background: #D8DFE8;
+    border-radius: 24px;
+    color: #0A3871;
+    transform: scale(1.1);
+    border: 1px solid #0A3871;
+}
+
+.bt-descriptografar {
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family: 'Inter';
+    color: #0A3871;
+    font-size: 16px;
+    line-height: 19px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.bt-descriptografar:hover {
+    background: #0A3871;
+    border-radius: 24px;
+    color: #ffffff;
+    transform: scale(1.1);
+    border: 1px solid #ffffff;
+}
+
+.bt-copiar {
+    padding: 24px;
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 1032px;
+    top: 885px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family: 'Inter';
+    color: #0A3871;
+    font-size: 16px;
+    line-height: 19px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.bt-copiar:hover {
+    background: #0A3871;
+    border-radius: 24px;
+    color: #ffffff;
+    transform: scale(1.1);
+    border: 1px solid #ffffff;
+}
+
+.retangulo {
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.retangulo img {
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 35px;
+    top: 283px;
+}
+
+.info-retangulo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    left: 1032px;
+    top: 619px;
+}
+
+.info-retangulo h4 {
+
+    width: 336px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.info-retangulo p {
+
+    width: 336px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.resultado-do-texto {
+    position: absolute;
+    border: 0px;
+    width: 336px;
+    height: 781px;
+    left: 1032px;
+    top: 72px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.resultado-do-texto:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+#dados-decodificador {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+        padding: 3em 10px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+}
