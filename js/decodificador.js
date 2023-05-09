@@ -11,7 +11,7 @@ function criptografa () {
     var textoCriptografado = textoCru.value.replace(/e/ig, 'enter');
     textoCriptografado = textoCriptografado.replace(/i/ig, 'imes');
     textoCriptografado = textoCriptografado.replace(/a/ig, 'ai');
-    textoCriptografado = textoCriptografado.replace(/o/ig, 'obter');
+    textoCriptografado = textoCriptografado.replace(/o/ig, 'ober');
     textoCriptografado = textoCriptografado.replace(/u/ig, 'ufat');
 
     limpaRetangulo();
@@ -21,7 +21,7 @@ function criptografa () {
 
 function descriptografa () {
     var textoDescriptografado = textoCru.value.replace(/ufat/ig, 'u');
-    textoDescriptografado = textoDescriptografado.replace(/obter/ig, 'o');
+    textoDescriptografado = textoDescriptografado.replace(/ober/ig, 'o');
     textoDescriptografado = textoDescriptografado.replace(/ai/ig, 'a');
     textoDescriptografado = textoDescriptografado.replace(/imes/ig, 'i');
     textoDescriptografado = textoDescriptografado.replace(/enter/ig, 'e');
