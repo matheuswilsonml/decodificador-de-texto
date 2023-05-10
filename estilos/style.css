@@ -284,7 +284,6 @@ footer {
 
     .input-padrao {
         width: 688px;
-        height: 48px;
         left: 40px;
         top: 240px;
     }
@@ -353,25 +352,100 @@ footer {
     
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
+    body {
+        width: 375px;
+        height: auto;
+    }
+
+    header {
+        width: 375px;
+        height: 96px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .logo {
+        left: 4.27%;
+        right: 87.2%;
+        top: 25%;
+        bottom: 25%;
+    }
+
+    .input-padrao {
+        width: 343px;
+        left: 16px;
+        top: 152px;
+    }
+
+    footer {
+        top: 1050px;
+    }
+
+    .info {
+        width: 252px;
+        height: 18px;
+        left: 16px;
+        top: 451px;
+    }
+
+    .botoes {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+
+        width: 343px;
+        left: 16px;
+        top: 485px;
+    }
+
+    .bt-criptografar {
+        width: 343px;
+    }
+
+    .bt-descriptografar {
+        width: 343px;
+    }
+
+    .retangulo {
+        width: 327px;
+        height: 410px;
+        left: 24px;
+        top: 700px;
+    }
+
+    .info-retangulo {
+        width: 263px;
+        height: 122px;
+    }
+
+    .info-retangulo h4 {
+        width: 263px;
+        height: 58px;
+        top: 848px;
+    }
     
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
-        width: auto;
-        padding: 3em 10px;
+    .info-retangulo p {
+        width: 263px;
+        height: 48px;
+        top: 913px;
     }
 
-    h1 {
-        text-align: center;
+    .resultado-do-texto {
+        width: 279px;
+        height: 279px;
+        left: 48px;
+        top: 713px;
+        font-size: 18px;
     }
 
-    nav {
-        position: static;
-    }
-
-    .lista-beneficios, .imagem-beneficios {
-        width: 100%;
-    }
-    
+    .bt-copiar {
+        width: 279px;
+        left: 50px;
+        top: 1013px;
+    } 
 }
 
 @media screen and (min-width: 1440px) {
