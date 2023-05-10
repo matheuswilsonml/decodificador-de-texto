@@ -73,6 +73,19 @@ footer {
     top: 851px;
 }
 
+.vetor {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.info img {
+    width: 16px;
+    height: 16px;
+}
+
 .aviso {
     width: 228px;
     height: 18px;
@@ -84,19 +97,6 @@ footer {
     line-height: 150%;
     color: #495057;
     opacity: 0.8;
-}
-
-.info img {
-    width: 16px;
-    height: 16px;
-}
-
-.vetor {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
 }
 
 .botoes {
@@ -156,31 +156,6 @@ footer {
     border: 1px solid #ffffff;
 }
 
-.bt-copiar {
-    padding: 24px;
-    position: absolute;
-    width: 336px;
-    height: 67px;
-    left: 1032px;
-    top: 885px;
-    border: 1px solid #0A3871;
-    border-radius: 24px;
-    font-family: 'Inter';
-    color: #0A3871;
-    font-size: 16px;
-    line-height: 19px;
-    transition: 1s all;
-    cursor: pointer;
-}
-
-.bt-copiar:hover {
-    background: #0A3871;
-    border-radius: 24px;
-    color: #ffffff;
-    transform: scale(1.1);
-    border: 1px solid #ffffff;
-}
-
 .retangulo {
     position: absolute;
     width: 400px;
@@ -224,10 +199,6 @@ footer {
     line-height: 120%;
     text-align: center;
     color: #343A40;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
 }
 
 .info-retangulo p {
@@ -241,10 +212,6 @@ footer {
     line-height: 150%;
     text-align: center;
     color: #495057;
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
 }
 
 .resultado-do-texto {
@@ -265,8 +232,125 @@ footer {
     outline: -webkit-focus-ring-color auto 0px;
 }
 
+.bt-copiar {
+    padding: 24px;
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 1032px;
+    top: 885px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family: 'Inter';
+    color: #0A3871;
+    font-size: 16px;
+    line-height: 19px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.bt-copiar:hover {
+    background: #0A3871;
+    border-radius: 24px;
+    color: #ffffff;
+    transform: scale(1.1);
+    border: 1px solid #ffffff;
+}
+
 #dados-decodificador {
     display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        width: 768px;
+        height: auto;
+    }
+
+    header {
+        width: 31.09px;
+        height: 50.58px;
+        left: 40px;
+        top: 73.42px;
+    }
+
+    .logo {
+        left: 5.21%;
+        right: 90.74%;
+        top: 6.25%;
+        bottom: 89.8%;
+    }
+
+    .input-padrao {
+        width: 688px;
+        height: 48px;
+        left: 40px;
+        top: 240px;
+    }
+
+    footer {
+        top: 1350px;
+    }
+
+    .info {
+        left: 40px;
+        top: 836px;
+    }
+
+    .botoes {
+        width: 688px;
+        left: 40px;
+        top: 870px;
+    }
+
+    .retangulo {
+        width: 688px;
+        height: 344px;
+        left: 40px;
+        top: 1001px;
+    }
+
+    .retangulo img {
+        display: none;
+    }
+
+    .info-retangulo {
+        width: 624px;
+        height: 69px;
+        position: static;
+    }
+
+    .info-retangulo h4 {
+        position: absolute;
+        width: 624px;
+        height: 29px;
+        left: 60px;
+        top: 1144px;
+    }
+    
+    .info-retangulo p {
+        position: absolute;
+        width: 624px;
+        height: 24px;
+        left: 65px;
+        top: 1192px;
+    }
+
+    .resultado-do-texto {
+        width: 640px;
+        height: 230px;
+        left: 55px;
+        top: 1020px;
+    }
+
+    .bt-copiar {
+        width: 624px;
+        height: 67px;
+        left: 70px;
+        top: 1265px;
+    }   
+    
 }
 
 @media screen and (max-width: 480px) {
