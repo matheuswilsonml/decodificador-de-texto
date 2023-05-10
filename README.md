@@ -6,11 +6,11 @@
 
 <h4>Foram utilizadas as seguintes "chaves" para criptografar:</h4>
 <ul>
-<li>A vogal "e" é convertida para "enter."</li>
-<li>A vogal "i" é convertida para "imes."</li>
-<li>A vogal "a" é convertida para "ai."</li>
-<li>A vogal "o" é convertida para "ober."</li>
-<li>A vogal "u" é convertida para "ufat."</li>
+<li>A vogal "e" é convertida para "enter"</li>
+<li>A vogal "i" é convertida para "imes"</li>
+<li>A vogal "a" é convertida para "ai"</li>
+<li>A vogal "o" é convertida para "ober"</li>
+<li>A vogal "u" é convertida para "ufat"</li>
 </ul>
 
 <h4>Requisitos da Aplicação:</h4>
