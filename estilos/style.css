@@ -379,7 +379,8 @@ footer {
     }
 
     footer {
-        top: 1050px;
+        top: 1150px;
+        width: 100%;
     }
 
     .info {
