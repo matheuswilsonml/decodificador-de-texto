@@ -380,7 +380,8 @@ footer {
 
     footer {
         top: 1150px;
-        width: 100%;
+        width: 375px;
+        position: block;
     }
 
     .info {

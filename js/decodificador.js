@@ -8,27 +8,37 @@ function mostraDadosDecodificador () {
 }
 
 function criptografa () {
-    var textoCriptografado = textoCru.value.replace(/e/ig, 'enter');
-    textoCriptografado = textoCriptografado.replace(/i/ig, 'imes');
-    textoCriptografado = textoCriptografado.replace(/a/ig, 'ai');
-    textoCriptografado = textoCriptografado.replace(/o/ig, 'ober');
-    textoCriptografado = textoCriptografado.replace(/u/ig, 'ufat');
-
-    limpaRetangulo();
-    mostraDadosDecodificador();
-    textoResultante.value = textoCriptografado;
+    if (textoCru.value == "") {
+        alert("Digite algum texto para ser criptografado.")
+        textoCru.focus();
+    } else {
+        var textoCriptografado = textoCru.value.replace(/e/ig, 'enter');
+        textoCriptografado = textoCriptografado.replace(/i/ig, 'imes');
+        textoCriptografado = textoCriptografado.replace(/a/ig, 'ai');
+        textoCriptografado = textoCriptografado.replace(/o/ig, 'ober');
+        textoCriptografado = textoCriptografado.replace(/u/ig, 'ufat');
+    
+        limpaRetangulo();
+        mostraDadosDecodificador();
+        textoResultante.value = textoCriptografado;
+    }
 }
 
 function descriptografa () {
-    var textoDescriptografado = textoCru.value.replace(/ufat/ig, 'u');
-    textoDescriptografado = textoDescriptografado.replace(/ober/ig, 'o');
-    textoDescriptografado = textoDescriptografado.replace(/ai/ig, 'a');
-    textoDescriptografado = textoDescriptografado.replace(/imes/ig, 'i');
-    textoDescriptografado = textoDescriptografado.replace(/enter/ig, 'e');
+    if (textoCru.value == "") {
+        alert("Digite algum texto para ser descriptografado.")
+        textoCru.focus();
+    } else {
+        var textoDescriptografado = textoCru.value.replace(/ufat/ig, 'u');
+        textoDescriptografado = textoDescriptografado.replace(/ober/ig, 'o');
+        textoDescriptografado = textoDescriptografado.replace(/ai/ig, 'a');
+        textoDescriptografado = textoDescriptografado.replace(/imes/ig, 'i');
+        textoDescriptografado = textoDescriptografado.replace(/enter/ig, 'e');
 
-    limpaRetangulo();
-    mostraDadosDecodificador();
-    textoResultante.value = textoDescriptografado;
+        limpaRetangulo();
+        mostraDadosDecodificador();
+        textoResultante.value = textoDescriptografado;
+    }
 }
 
 var textoCru = document.querySelector("textarea");
