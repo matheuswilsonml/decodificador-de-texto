@@ -21,6 +21,7 @@ function criptografa () {
         limpaRetangulo();
         mostraDadosDecodificador();
         textoResultante.value = textoCriptografado;
+        textoResultante.focus();
     }
 }
 
@@ -38,6 +39,7 @@ function descriptografa () {
         limpaRetangulo();
         mostraDadosDecodificador();
         textoResultante.value = textoDescriptografado;
+        textoResultante.focus();
     }
 }
 
